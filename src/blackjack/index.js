@@ -25,7 +25,6 @@ const puntosHTML = document.querySelectorAll('small');
 // Funcion para crear Deck
 deck = crearDeck( tipos, especiales );
 
-
 // Eventos
 btnPedir.addEventListener('click', () => {
 
@@ -52,7 +51,6 @@ btnPedir.addEventListener('click', () => {
     }
 
 });
-
 
 btnDetener.addEventListener('click', () => {
     btnPedir.disabled   = true;
